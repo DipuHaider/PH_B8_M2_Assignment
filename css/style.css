@@ -87,6 +87,7 @@ body{
     min-height: 700px;
     align-items: center;
     justify-content: center;
+    gap: 50px;
 }
 
 .banner-text{
@@ -110,7 +111,7 @@ body{
 }
 
 .banner-text h1 {
-    background-image: linear-gradient(to bottom, var(--primary-pink), var(--primary-blue));
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
     -webkit-background-clip: text;
     font-size: 95px;
@@ -139,12 +140,75 @@ body{
     margin-top: 30px;
 }
 
-.btn-sign{
+.btn-pink{
     background-color: var(--primary-pink);
     border: 2px solid var(--primary-pink);
 }
 
-.btn-go{
+.btn-blue{
     background-color: var(--primary-blue);
     border: 2px solid var(--primary-blue);
+}
+
+/* We Are Gamer Section */
+.we-are-gamer-section{
+    background-color: #ff42a40f;
+}
+
+.we-are-gamer-container{
+    max-width: 1400px;
+    min-height: 600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.we-are-gamer-img{
+    width: 60%;
+    position: relative;
+}
+
+.we-are-gamer-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.we-are-gamer-text{
+    width: 40%;
+    text-align: right;
+    align-items: center;
+    margin: 0 auto;
+    color: var(--text-light);
+}
+
+.we-are-gamer-text h3{
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.we-are-gamer-text p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.we-are-gamer-text .quote{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-top: 20px;
+}
+
+.we-are-gamer-text .quote span{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
 }
