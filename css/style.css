@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-pink: #FF42A5;
+    --primary-blue: #4EC5F7;
+    --text-light: #534C64;
+    --text-dark: #0B0223;
+  }
