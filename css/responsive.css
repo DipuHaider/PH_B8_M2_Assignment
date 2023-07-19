@@ -4,6 +4,23 @@
 }
 
 /* Mobile Screens */
-@media screen and (max-width: 425px) {
-    
+@media screen and (max-width: 426px) {
+    .nav-container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .nav-items-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-items-container a{
+        margin-top: 20px;
+    }
+
+    .nav-items-container .login-btn {
+        width: 60%;
+        margin-bottom: 10px;
+    }
 }

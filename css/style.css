@@ -15,4 +15,61 @@ body{
     --primary-blue: #4EC5F7;
     --text-light: #534C64;
     --text-dark: #0B0223;
-  }
+}
+
+.nav-container{
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
+
+.logo-container img{
+    width: 87px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.logo-container p{
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--text-dark);
+}
+
+.logo-container .logo-color{
+    color: var(--primary-pink);
+ }
+
+.nav-items-container{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-items-container .login-btn {
+    background-color: #0b02231f;
+    padding: 15px 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nav-items-container img{
+    width: 15px;
+    object-fit: cover;
+}
