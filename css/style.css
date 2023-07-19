@@ -377,13 +377,13 @@ body{
 /* Games Link Section */
 .games-link-container{
     display: block;
-    height: 400px;
+    padding: 50px;
 }
 
 .games-link-cards{
     display: grid;
     max-width: 1400px;
-    margin: 50px auto 0;
+    margin: 0 auto;
     min-height: 80px;
     grid-template-columns: repeat(5, 1fr);
     gap: 15px;
@@ -395,11 +395,12 @@ body{
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 1px solid white;
 }
 .link-card:hover {
     border: 1px solid var(--primary-pink);
-    padding: 10px;
-    border-radius: 20px;
     color: var(--primary-pink);
 }
 
@@ -407,4 +408,80 @@ body{
     color: var(--text-dark);
     font-size: 20px;
     font-weight: 600;
+}
+
+/* Footer Section */
+footer{
+    background-color: var(--text-dark);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 850px;
+    height: 400px;
+}
+
+.footer-container .logo-container{
+    width: 100%;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.footer-container .logo-container p{
+    color: #ffffff;
+}
+
+.footer-menu1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.footer-container .footer-menu1 a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-container .icons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin:  20px auto;
+}
+.footer-container .icons-container i{
+    color: white;
+    font-size: 28px;
+}
+
+.footer-menu2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.footer-container .footer-menu2 a{
+    color: #ffffffa0;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.copyright{
+    color: #ffffffa0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
 }
