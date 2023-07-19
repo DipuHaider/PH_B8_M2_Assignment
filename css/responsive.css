@@ -5,6 +5,7 @@
 
 /* Mobile Screens */
 @media screen and (max-width: 426px) {
+    /* navbar section */
     .nav-container{
         flex-direction: column;
         margin-top: 50px;
@@ -22,5 +23,24 @@
     .nav-items-container .login-btn {
         width: 60%;
         margin-bottom: 10px;
+    }
+
+    /* banner section */
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 10px auto 0;
+    }
+    .banner-text{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .banner-img{
+        width: 100%;
+    }
+    
+    .banner-text p{
+        font-size: 20px;
     }
 }
