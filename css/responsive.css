@@ -5,6 +5,11 @@
 
 /* Mobile Screens */
 @media screen and (max-width: 426px) {
+    /* Shared */
+    .title-text {
+        font-size: 24px;
+    }
+    
     /* navbar section */
     .nav-container{
         flex-direction: column;
@@ -61,5 +66,18 @@
     
     .we-are-gamer-text p{
         font-size: 20px;
+    }
+
+    /* online games section */
+    .online-games-title{
+        display: block;
+        width: 380px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .online-games-cards{
+        grid-template-columns: 1fr;
+        padding: 30px;
     }
 }
