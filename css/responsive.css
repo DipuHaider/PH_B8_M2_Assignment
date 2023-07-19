@@ -1,6 +1,24 @@
 /* Tablet Screens */
 @media screen and (max-width: 768px) {
+    /* Links card */
+    .games-link-container {
+        margin-top: 100px;
+        padding: 50px 10px;
+    }
+    .games-link-cards{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2px;
+    }
 
+    .online-games-cards{
+        margin: 20px auto 0;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .online-games-container {
+        display: block;
+        height: auto;
+    }
 }
 
 /* Mobile Screens */
@@ -69,6 +87,9 @@
     }
 
     /* online games section */
+    .online-games-container {
+        height: auto;
+    }
     .online-games-title{
         display: block;
         width: 380px;
@@ -79,6 +100,33 @@
     .online-games-cards{
         grid-template-columns: 1fr;
         padding: 30px;
+    }
+    /* Play instantly Section */
+    .play-instant-container{
+        flex-direction: column;
+    }
+
+    .play-instant-img{
+        width: 100%;
+    }
+
+    .play-instant-text {
+        width: 85%;
+        text-align: center
+    }
+
+    /* Play games Section */
+    .play-games-container{
+        flex-direction: column-reverse;
+    }
+
+    .play-games-img{
+        width: 100%;
+    }
+
+    .play-games-text {
+        width: 85%;
+        text-align: center;
     }
 
     /* Links card */
@@ -101,6 +149,22 @@
     }
     
     .link-card-text{
+        font-size: 10px;
+    }
+    /* Footer Section */
+    .footer-menu1 {
+        width: 98%;
+    }
+
+    .footer-container .footer-menu1 a {
+        font-size: 10px;
+    }
+
+    .footer-container .footer-menu2 a {
+        font-size: 8px;
+    }
+
+    .copyright {
         font-size: 10px;
     }
 }
