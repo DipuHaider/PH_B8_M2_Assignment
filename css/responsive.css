@@ -80,4 +80,27 @@
         grid-template-columns: 1fr;
         padding: 30px;
     }
+
+    /* Links card */
+    .games-link-container {
+        margin-top: 100px;
+        padding: 50px 10px;
+    }
+    .games-link-cards{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2px;
+    }
+
+    .link-card{
+        padding: 0;
+    }
+
+    .link-card img{
+        width: 15px;
+        height: auto;
+    }
+    
+    .link-card-text{
+        font-size: 10px;
+    }
 }
